@@ -1,6 +1,6 @@
-from PythonExamples.home_asignment_notrafic.data_types import RLRResult, RLRRequest
-from PythonExamples.home_asignment_notrafic.persistence import PersistenceBase
-from PythonExamples.home_asignment_notrafic.request_processor import RequestProcessorBase
+from data_types import RLRResult, RLRRequest
+from persistence import PersistenceBase
+from request_processor import RequestProcessorBase
 
 class PersistenceMock(PersistenceBase):
     def __init__(self):

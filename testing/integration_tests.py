@@ -1,10 +1,10 @@
 import time
 
-from PythonExamples.home_asignment_notrafic.data_types import RLRRequest, Coord, TimedCoord
-from PythonExamples.home_asignment_notrafic.invokers import RLRRequestInvoker
-from PythonExamples.home_asignment_notrafic.logger import Logger
-from PythonExamples.home_asignment_notrafic.rlr import RLR
-from PythonExamples.home_asignment_notrafic.testing.mocks import ProcessorMock, PersistenceMock
+from data_types import RLRRequest, Coord, TimedCoord
+from invokers import RLRRequestInvoker
+from logger import Logger
+from rlr import RLR
+from testing.mocks import PersistenceMock, ProcessorMock
 
 class IntegrationTest:
     """test full system flow"""

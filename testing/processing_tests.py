@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from PythonExamples.home_asignment_notrafic.data_types import Coord, TimedCoord
-from PythonExamples.home_asignment_notrafic.request_processor import RLRRequestProcessor
+from data_types import Coord, TimedCoord
+from request_processor import RLRRequestProcessor
 
 class ProcessingTests(TestCase):
     def setUp(self) -> None:
